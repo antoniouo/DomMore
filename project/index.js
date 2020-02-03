@@ -1,9 +1,9 @@
-var box = document.querySelector('.box');
-var colorInput = document.getElementById('color');
-var changeColorButton = document.querySelector('.change-color');
+let box = document.querySelector('.box');
+let colorInput = document.getElementById('color');
+let changeColorButton = document.querySelector('.change-color');
 
 
 changeColorButton.addEventListener('click', function () {
-    var color = colorInput.value;
+    let color = colorInput.value;
     box.style.backgroundColor = color;
 });
